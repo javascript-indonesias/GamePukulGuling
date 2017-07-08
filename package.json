@@ -1,0 +1,23 @@
+{
+  "name": "belajarvuejsnetninjapunchbaggame",
+  "version": "1.0.0",
+  "description": "belajar vue js dengan membuat game sederhana dari tutorial NetNinja",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server --port=4200 --host=localhost --entry-file=/index.html"
+  },
+  "keywords": [
+    "vue",
+    "game",
+    "simple"
+  ],
+  "author": "gulajava",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
