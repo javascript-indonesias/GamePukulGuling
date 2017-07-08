@@ -2,7 +2,7 @@
     width: 200px;
     height: 500px;
     margin: 0 auto;
-    background: url(/img/bag.png) center no-repeat;
+    background: url(img/bag.png) center no-repeat;
     background-size: 80%
 }
 
@@ -10,7 +10,7 @@
     width: 200px;
     height: 500px;
     margin: 0 auto;
-    background: url(/img/bag-burst.png) center no-repeat;
+    background: url(img/bag-burst.png) center no-repeat;
     background-size: 80%
 }
 
