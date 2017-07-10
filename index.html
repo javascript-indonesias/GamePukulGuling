@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Game Pukul Gebug</title>
@@ -12,19 +12,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css" media="screen,projection" />
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link type="text/css" rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="lib/vues/vue.min.js">
-        
+
     </script>
 </head>
 
 <body>
-        
+
     <div id="vue-game">
 
         <!--gambar tempat pukulan-->
@@ -37,11 +37,9 @@
 
         <!-- tombol pukul dan reset-->
         <div class="controls center-align">
-            <button v-on:click="pukulGuling()" v-show="!isEnded" 
-            class="waves-effect waves-light red darken-4 btn">Pukul</button>
+            <button v-on:click="pukulGuling()" v-show="!isEnded" class="waves-effect waves-light red darken-4 btn">Pukul</button>
 
-            <button v-on:click="restartGame()" v-show="isEnded" 
-            class="waves-effect waves-light green darken-3 btn">Ulangi</button>
+            <button v-on:click="restartGame()" v-show="isEnded" class="waves-effect waves-light green darken-3 btn">Ulangi</button>
         </div>
 
     </div>
@@ -51,5 +49,5 @@
     <script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
-        
